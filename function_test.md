@@ -57,3 +57,5 @@ or, simply just pass the value for the parameters in the function.
 ```r
 ezstat("microbiome11.csv", "metadata11.txt", "g", "BMIClass")
 ```
+You will have the outputs into a dedicated directory in your working directory.
+
