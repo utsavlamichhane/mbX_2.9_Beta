@@ -15,3 +15,14 @@ Load the library.
 ```r
 library(mbX)
 ```
+
+Run newer version of ezclean.
+
+```r
+ezclean(microbiome_data = "microbiome11.csv", metadata = "metadata11.txt", level = "g")
+```
+or, simply just pass the value for the parameters in the function. 
+
+```r
+ezclean("microbiome11.csv", "metadata11.txt", "g")
+```
