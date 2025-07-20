@@ -1,5 +1,5 @@
-Code run sequence
+Code run sequence:
 
-Firstly run the codes in the installation.md
+1. Firstly run the codes in the installation.md
 
-Then run function_test.md
+2. Then run function_test.md
