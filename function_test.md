@@ -26,3 +26,23 @@ or, simply just pass the value for the parameters in the function.
 ```r
 ezclean("microbiome11.csv", "metadata11.txt", "g")
 ```
+You will have the output into a dedicated directory in your working directory.
+
+Run newer version of ezviz.
+
+```r
+ezviz(microbiome_data = "microbiome11.csv", metadata = "metadata11.txt", level = "g", selected_metadata = "BMIClass", top_taxa = 10, flip = "True")
+```
+
+or, simply just pass the value for the parameters in the function. 
+
+```r
+ezviz("microbiome11.csv", "metadata11.txt","g", "BMIClass", top_taxa = 10, flip = "True")
+```
+
+In our ezviz funtion explictly mentioning the parameter *top_taxa* or *threshold* is necessary because both parameter works on to filter the taxa by average abundance. 
+
+
+You will have the outputs into a dedicated directory in your working directory.
+
+Run the brand new ezstat function.
