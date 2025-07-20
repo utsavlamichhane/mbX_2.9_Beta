@@ -53,3 +53,7 @@ ezstat(microbiome_data = "microbiome11.csv", metadata = "metadata11.txt", level 
 ```
 
 or, simply just pass the value for the parameters in the function. 
+
+```r
+ezstat("microbiome11.csv", "metadata11.txt", "g", "BMIClass")
+```
