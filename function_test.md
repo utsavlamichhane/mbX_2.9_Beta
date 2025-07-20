@@ -46,3 +46,10 @@ In our ezviz funtion explictly mentioning the parameter *top_taxa* or *threshold
 You will have the outputs into a dedicated directory in your working directory.
 
 Run the brand new ezstat function.
+
+
+```r
+ezstat(microbiome_data = "microbiome11.csv", metadata = "metadata11.txt", level = "g", selected_metadata = "BMIClass")
+```
+
+or, simply just pass the value for the parameters in the function. 
