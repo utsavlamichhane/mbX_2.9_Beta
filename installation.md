@@ -6,3 +6,11 @@ Download the package file from the link below.
 https://outlookuga-my.sharepoint.com/:u:/g/personal/ul54354_uga_edu/ERwbyZVbaXxPiZj1lIzSBLcBRk8givavpU2EEQolhHhyXA?e=x2aMKd
 ```
 If you have trouble downloading the package file. 
+
+Open R studio.
+
+Click on *Session* → *Set Working Directory* → *Choose Directory*
+
+And then select the directory where you downloaded the package file. 
+
+Run the following code in your R console
