@@ -1,4 +1,4 @@
-#Updated on 25 Jul 2025: We have submitted the package to CRAN, should be available in the CRAN dir by the end of this week. 
+# Updated on 25 Jul 2025: We have submitted the package to CRAN, should be available in the CRAN dir by the end of this week. 
 
 # Installing the package from your local system
 
