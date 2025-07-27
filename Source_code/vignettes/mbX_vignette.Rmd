@@ -1,0 +1,22 @@
+---
+title: "mbX: A Microbiome Data Cleaning and Visualization Package"
+author: "Utsav Lamichhane"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{mbX Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+The `mbX` package provides functions for cleaning and visualizing microbiome data. This vignette demonstrates how to use `ezclean()` and `ezviz()` to transform and visualize your data.
+
+# Data Cleaning with ezclean()
+
+```r
+file_mic <- system.file("extdata", "microbiome.csv", package = "mbX")
+file_meta <- system.file("extdata", "metadata.csv", package = "mbX")
+cleaned_data <- mbX::ezclean(file_mic, file_meta, "genus", 10)
+head(cleaned_data)
+
